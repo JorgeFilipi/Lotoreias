@@ -8,6 +8,5 @@ if response.status_code == 200:
     print("Concurso:", data["concurso"])
     print("Data:", data["data"])
     print("Dezenas sorteadas:", data["dezenas"])
-    print(data["premiacoes"])
 else:
     print("Erro ao acessar a API:", response.status_code)
